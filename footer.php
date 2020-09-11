@@ -32,5 +32,6 @@
 </div> <!-- end wrapper -->
 <div class="woodmart-close-side"></div>
 <?php wp_footer(); ?>
+
 </body>
 </html>

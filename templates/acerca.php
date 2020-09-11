@@ -2,97 +2,116 @@
     /* Template Name: Acerca */ 
     get_header();
 ?>
-<section id="fabricamos2" class="template-section">
-       <div class="contenedor">
-        
-          <h2>ACERCA DE NOSOTROS</h2>
-          <div class="grid">
-              <div class="col">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="Logo">
-           <h3 class="especial">una empresa 100% mexicana</h3>
-                 <ul>
-                     <li>Fabricamos sustrato de fibra de coco 100% orgánica para cultivos hidropónicos.</li>
-                     <li>Fabricamos bolsas hidropónicas específicas para cada cultivo, con nuestro sustrato de fibra de coco de la más alta calidad. </li>
-                 </ul>
-                 
-              </div>
-                <div class="col">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/acerca.png" alt="Logo">
-                </div>
-             
-          </div>
-           
-       </div>
-        
-</section>
-<section id="objetivo" class="template-section">
-       <div class="contenedor">
-       <h2 class="claro">OBJETIVO SUSTRAMEX</h2>
-       <p class="blanco">Que el productor logre obtener rendimientos óptimos, con mayor densidad de plantación en el mismo terreno. Así como el aumento de sus cosechas y la disminución de la necesidad de mano de obra</p>
-    </div>
-</section>
-<section id="mision" class="template-section">
+
+<section id="acerca" class="template-section">
 <div class="contenedor">
-   <div class="grid">
-    <div class="col"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mision.png" alt="Logo"><h3>Misión</h3><p>Elaborar el <span>sustrato de fibra de coco</span> con la más <span>alta calidad</span> para que el productor logre obtener los <span>mejores rendimientos de fruta en sus cosechas </span></p><br><br></div> 
-    <div class="col"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/vision.png" alt="Logo"><h3>Visión</h3><p><span>Lograr que más agricultores se sumen a la tecnología de cultivos hidropónicos</span> con nuestro sustrato de fibra de coco, así como lograr que el <span>campo</span> sea <span>más sustentanble</span> para <span>favorecer a nuestro ecosistema.</span></p></div> 
-    </div>
-    <hr>
+<div class="ban">
+<h1>Acerca de</h1>
+<div class="lap">
+<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo3.png" alt="linea">
+</div>
+<div class="cel">
+<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo3res.png" alt="linea">
+<div class="center">
+    <a href="https://matetres14.com/#paquete"  class="btn"> ¡Me interesa!</a>
+</div>
+</div>
+</div>
 </div>
 </section>
-<section id="certificado" class="template-section">
-<div class="contenedor">
-   
-   <h2 class="certificado">NUESTRAS CERTIFICACIONES</h2>
-    <div class="grid">
-        <div class="col2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/c1.png" alt="Logo"></div>
-        <div class="col2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/c2.png" alt="Logo"></div>
-        <div class="col2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/c3.png" alt="Logo"></div>
-    </div>
-    <hr>
-</div>
-</section>
-<section id="contacto" class="template-section">
-<div class="contenedor">
-     <img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="Logo">
-           <h3 class="especial">una empresa 100% mexicana</h3>
+
+<section id="asesores" class="template-section">
+      
+      
+          
+            
            <div class="grid">
-               <div class="col"><?php echo do_shortcode('[caldera_form id="CF5ecd5755c48e4"]'); ?></div>
+            
+               <div class="col fondo1"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/asesores.png" alt="asesores"></div>
+               <div class="col fondo2"><h3>Somos asesores con estudios de matemáticas, apasionados por ayudar a que el conocimiento matemático sea accesible y comprensible.</h3><p>Con nuestras clases en línea, vía <b>ZOOM,</b> enseñamos matemáticas de calidad a los estudiantes que necesitan entenderlas y dominarlas.</p><p>Nuestras clases de matemáticas en línea, rescatan el sentido de aprender esta materia tan importante y ayudan al estudiante a entender cada paso de manera más fácil y divertida.</p></div>
+           </div>
+          
+   
+</section>
+
+<section id="mision" class="template-section">
+      
+      
+          
+            
+           <div class="grid">
+            
+               <div class="col fondo1"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mision.png" alt="asesores"><h2><span>Misión</span></h2><p>Ser la plataforma con mejores asesores y metodología para la enseñanza de las matemáticas.</p></div>
+               <div class="col fondo2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/vision.png" alt="asesores"><h2><span>Visión</span></h2><p><b>Mostrar a las matemáticas como una materia importante, divertida y apasionante a través de su oportuna enseñanza.</b></p></div>
+               
+           </div>
+          
+   
+</section>
+<section id="valores" class="template-section">
+
+
+<div class="contenedor">
+    <div class="grid">
+        <div class="col2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/respeto.png" alt="respeto"><h3>Respeto</h3></div>
+        <div class="col2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/dedicacion.png" alt="foco"><h3>Dedicación</h3></div>
+        <div class="col2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/profesionalismo.png" alt="tablet"><h3>Profesionalismo</h3></div>
+        
+    </div>
+    
+    
+</div>
+</section>
+
+<section id="contacto" class="template-section">
+
+<div class="contenedor">
+   <h2><span>Contáctanos</span></h2>
+    
+     
+           <div class="grid">
+               <div class="col"><img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo2.png" alt="Logo"><?php echo do_shortcode('[caldera_form id="CF5f4404c32b8f7"]'); ?></div>
                
 <div class="col datos">
        
      
        <div class="datos">
-       <p class="bl2"> <img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/phone.png" alt="Logo">  351 116 6409</p>
+       <div class="grid grid2">
+           <div class="col1"><img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/tel.png" alt="Logo"> </div>
+            <div class="col2"><p class="blanco">55 65 57 90 32
+<span>55 28 55 42 62</span></p></div>
+       </div>
+      
         
         </div>
         <div class="datos">
-       <p class="bl2"> <img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/WA.png" alt="Logo">  <a href="https://wa.me/523316030969">33 160 309 69</a></p>
+       <div class="grid grid2">
+           <div class="col1"><img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/reloj.png" alt="Logo"> </div>
+            <div class="col2"><p class="blanco wa">Lu-Vi de 9:00 - 21:00
+<span>Sáb-Dom: 9:00 - 17:00</span></p></div>
+       </div>
+      
         
         </div>
         <div class="datos">
-       <p class="bl2"> <img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/location.png" alt="Logo">San Marcos, Guerrero
-C.P. 39960</p>
-        
-        </div>
-        <div class="datos">
-       <p class="bl2"> <img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/location.png" alt="Logo">  Carretera Zamora - Carapan
-Km 3.5 Chaparaco, Zamora,
-Michoacán C.P. 59697</p>
+       <div class="grid grid2">
+           <div class="col1"><img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/wa.png" alt="Logo"> </div>
+            <div class="col2"><a href="https://wa.link/c5ya5b"><p class="blanco wa">55 65 57 90 32</p></a></div>
+       </div>
+      
         
         </div>
         
-        <div class="datos">
-       <p class="bl2"> <img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/location.png" alt="Logo"> <a href="mailto:contacto@sp2000.com.mx">contacto@sp2000.com.mx</a></p>
         
-        </div>
-       <p class="negritas">SÍGUENOS EN:</p>
-       <p><a href=""><img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/FB.png" alt="Logo">  </a><a href=""><img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/IG.png" alt="Logo">  </a></p>
-       
-     </div>
-           </div>
+        
+           
 </div>
+    </div>
+    </div>
 </section>
+
+
+
 <?php 
     get_footer();
 ?>
