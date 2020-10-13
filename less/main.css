@@ -329,6 +329,7 @@ body.page-template-acerca .row {
 }
 #comenzar .fondo2 {
   background-color: #3c6090;
+  min-height: 841px;
 }
 #comenzar p {
   font-weight: bold;
@@ -550,6 +551,9 @@ body.page-template-acerca .row {
 #blog h3,
 #blog a {
   opacity: inherit;
+}
+#blog .blog-post-loop .entry-title a {
+  color: #848484!important;
 }
 #blog .meta-post-categories a {
   color: white;

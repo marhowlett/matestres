@@ -53,13 +53,12 @@
 <section id="comenzar" class="template-section">
 <div class="grid">
     <div class="col fondo"></div>
-     <div class="col fondo2"><h3 class="amarillo">¿Cómo comenzar?</h3><p class="blanco">Ingresa a nuestras clases personalizadas en vivo en tan solo 5 pasos:</p>
-     <p class="blanco"><span class="espe">1. </span> Selecciona el paquete de clases de tu preferencia.</p>
-     <p class="blanco"><span class="espe">2. </span> Realiza tu pago a través de nuestros servicios en línea.</p>
-     <p class="blanco"><span class="espe">3. </span> Un asesor te contactará para acordar el día y hora de tu clase.</p>
-     <p class="blanco"><span class="espe">4. </span> Una vez seleccionado tu horario, te  enviaremos una confirmación vía email y notificaciones para que no olvides tu clase.</p>
-     <p class="blanco"><span class="espe">5. </span> El día de tu clase te enviaremos el enlace de ZOOM, conéctate a la hora acordada 
-¡Y listo!</p>
+     <div class="col fondo2"><h3 class="amarillo">¿Cómo comenzar mis clases?</h3><p class="blanco">Ingresa a nuestras clases personalizadas en vivo en tan solo 4 pasos: </p>
+     <p class="blanco"><span class="espe">1. </span> Selecciona un paquete de clases, asesor, día y fecha.</p>
+     <p class="blanco"><span class="espe">2. </span> Elige del listado alguno de los horarios disponibles para tu primera clase.  Nota. En caso de que tu paquete incluya más clases, un asesor te contactará para acordar las siguientes clases pendientes.</p>
+     <p class="blanco"><span class="espe">3. </span> Realiza tu pago en línea</p>
+     <p class="blanco"><span class="espe">4. </span> El día de tu clase te enviaremos el enlace de ZOOM, conéctate a la hora acordada ¡Y listo!</p>
+     
 </div>
     </div>
 </section>
@@ -136,65 +135,77 @@
   <div class="col">
     
     <div class="tabs">
-      <div class="tab">
+     <div class="tab">
         <input type="radio" id="rd1" name="rd">
-        <label class="tab-label" for="rd1">¿Resuelven tareas o exámenes de matemáticas?	</label>
+        <label class="tab-label" for="rd1">¿Cómo comenzar mis clases?	</label>
+        <div class="tab-content">
+         Ingresa a nuestras clases personalizadas en vivo en tan solo 4 pasos: <br><br>
+ 
+1. Selecciona un paquete de clases, asesor, día y fecha.<br>
+2. Elige del listado alguno de los horarios disponibles para tu primera clase.  Nota. En caso de que tu paquete incluya más clases, un asesor te contactará para acordar las siguientes clases pendientes.<br>
+3. Realiza tu pago en línea<br>
+4. El día de tu clase te enviaremos el enlace de ZOOM, conéctate a la hora acordada ¡Y listo!
+        </div>
+      </div>
+      <div class="tab">
+        <input type="radio" id="rd2" name="rd">
+        <label class="tab-label" for="rd2">¿Resuelven tareas o exámenes de matemáticas?	</label>
         <div class="tab-content">
           Por principio ético NO resolvemos tareas ni exámenes. Sin embargo, con nuestras asesorías te damos las herramientas necesarias y un seguimiento constante para que logres desarrollar tu tarea de manera satisfactoria.
         </div>
       </div>
       <div class="tab">
-        <input type="radio" id="rd2" name="rd">
-        <label class="tab-label" for="rd2">Me fui a extra de mate en la prepa ¿Me pueden ayudar?</label>
+        <input type="radio" id="rd3" name="rd">
+        <label class="tab-label" for="rd3">Me fui a extra de mate en la prepa ¿Me pueden ayudar?</label>
         <div class="tab-content">
           Claro que te podemos ayudar. Es recomendable que te prepares con anticipación.
         </div>
       </div>
       <div class="tab">
-        <input type="radio" id="rd3" name="rd">
-        <label class="tab-label" for="rd3">No entendí nada en mis clases de matemáticas ¿Cuánto tiempo necesito para regularizarme?</label>
+        <input type="radio" id="rd4" name="rd">
+        <label class="tab-label" for="rd4">No entendí nada en mis clases de matemáticas ¿Cuánto tiempo necesito para regularizarme?</label>
         <div class="tab-content">
           Nosotros te apoyamos a que entiendas y aprendas los temas necesarios para que saques buenas calificaciones. Es recomendable que tengas asesorías de manera constante. La membresía <b>MateTres14</b> es la opción recomendada.
         </div>
       </div>
       <div class="tab">
-        <input type="radio" id="rd4" name="rd">
-        <label class="tab-label" for="rd4">¿Cómo determinan mis puntos débiles en la materia?</label>
+        <input type="radio" id="rd5" name="rd">
+        <label class="tab-label" for="rd5">¿Cómo determinan mis puntos débiles en la materia?</label>
         <div class="tab-content">
           Antes de comenzar realizamos una pequeña evaluación de diagnóstico con el objeto de detectar qué tanto entiendes del tema de matemáticas que trataremos en tu asesoría. 
         </div>
       </div>
         <div class="tab">
-        <input type="radio" id="rd5" name="rd">
-        <label class="tab-label" for="rd5">¿Dan asesorías de Cálculo?</label>
+        <input type="radio" id="rd6" name="rd">
+        <label class="tab-label" for="rd6">¿Dan asesorías de Cálculo?</label>
         <div class="tab-content">
           Sí, manejamos todos los temas de bachillerato (Aritmética, Álgebra, Trigonometría, Geometría Analítica, Probabilidad, Estadística y Cálculo Diferencial e Integral).
         </div>
       </div>
       <div class="tab">
-        <input type="radio" id="rd6" name="rd">
-        <label class="tab-label" for="rd6"> ¿Puedo entrar a la sesión con un amigo?</label>
+        <input type="radio" id="rd7" name="rd">
+        <label class="tab-label" for="rd7"> ¿Puedo entrar a la sesión con un amigo?</label>
         <div class="tab-content">
           Cada asesoría se personaliza a tus necesidades y ritmo de aprendizaje. Es recomendable que solo tú estés presente para brindarte la mejor atención.
         </div>
       </div>
       <div class="tab">
-        <input type="radio" id="rd7" name="rd">
-        <label class="tab-label" for="rd7"> Estoy inscrito en la membresía mensual, me gustaría tener más horas a la semana. ¿Se pueden añadir a mi plan?</label>
+        <input type="radio" id="rd8" name="rd">
+        <label class="tab-label" for="rd8"> Estoy inscrito en la membresía mensual, me gustaría tener más horas a la semana. ¿Se pueden añadir a mi plan?</label>
         <div class="tab-content">
           Claro que sí, por favor comunícate con nosotros vía WhatsApp o correo electrónico para dar seguimiento a tu petición.
         </div>
       </div>
       <div class="tab">
-        <input type="radio" id="rd8" name="rd">
-        <label class="tab-label" for="rd8"> Quiero aprender más cosas de matemáticas. En mi escuela todo me parece más sencillo. ¿Puedo inscribirme con ustedes?</label>
+        <input type="radio" id="rd9" name="rd">
+        <label class="tab-label" for="rd9"> Quiero aprender más cosas de matemáticas. En mi escuela todo me parece más sencillo. ¿Puedo inscribirme con ustedes?</label>
         <div class="tab-content">
          Claro, cada programa es totalmente personalizado de acuerdo a tus necesidades. Para más información comunícate con nosotros vía correo electrónico.
         </div>
       </div>
       <div class="tab">
-        <input type="radio" id="rd9" name="rd">
-        <label for="rd9" class="tab-close">Cerrar otros &times;</label>
+        <input type="radio" id="rd10" name="rd">
+        <label for="rd10" class="tab-close">Cerrar otros &times;</label>
       </div>
     </div>
   </div>
