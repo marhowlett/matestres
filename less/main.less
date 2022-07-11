@@ -441,6 +441,7 @@ body.page-template-inicio,body.page-template-beneficios,body.page-template-acerc
         h3{
           //  margin-top: 20px;
             text-align: center;
+            
         }
         img{
              display: block;
@@ -454,6 +455,9 @@ body.page-template-inicio,body.page-template-beneficios,body.page-template-acerc
     .ban3{
         background-color: @amarillo;
             padding: 20px;
+         p{
+            margin-bottom: inherit;
+        }
     }
     .precio{
             text-align: center;
@@ -462,6 +466,85 @@ body.page-template-inicio,body.page-template-beneficios,body.page-template-acerc
                 display: contents;
              font-family: 'iCiel Gotham';
             
+        }
+        p{
+            line-height: 3em;
+        }
+    }
+    .ban4{
+        background-color: @azul;
+            padding: 20px;
+        h3{
+            text-align: center;
+        }
+    }
+    .precio1{
+                  margin-top: 111px;
+    }
+    .precio2{
+              
+               margin-top: 52px;
+    }
+    ul{
+        font-weight: bold;
+    }
+   
+}
+
+#curso{
+    background-color: #fafbfd;
+    .col2{
+            padding: 10px;
+            margin: inherit;
+    }
+    p{
+        text-align: center;
+        font-weight: bold;
+        &.espe{
+            text-align: center;
+        }
+    }
+    .ban{
+        background-color: @azul;
+            padding: 30px;
+       
+        h3{
+          //  margin-top: 20px;
+            text-align: center;
+            font-size: 31px;
+                position: relative;
+    top: 11px;
+            &.alge{
+                 position: relative;
+                top: 30px;
+            }
+        }
+        img{
+             display: block;
+        margin: 10px auto;
+        }
+    }
+    .ban2{
+       padding: 20px;
+        background-color: @fondogris;
+    }
+    .ban3{
+        background-color: @amarillo;
+            padding: 20px;
+        p{
+            margin-bottom: inherit;
+        }
+    }
+    .precio{
+            text-align: center;
+        span{
+                font-size: 50px;
+                display: contents;
+             font-family: 'iCiel Gotham';
+            
+        }
+        p{
+            line-height: 3em;
         }
     }
     .ban4{
@@ -547,7 +630,7 @@ input {
   &-content {
     max-height: 0;
     padding: 0 1em;
-    color: $midnight;
+    color: black;
     background: white;
     transition: all .35s;
   }
@@ -599,10 +682,14 @@ input:checked {
   
     .col1{
         width: 20%;
+            display: block;
+    margin: auto;
     }
     .col2{
         width: 80%;
             padding: inherit;
+            display: block;
+    margin: auto;
         p{
             font-weight: bold;
         }
@@ -658,7 +745,15 @@ input:checked {
         
     }
     img.so {
+            display: block;
+    margin: auto;
     margin-right: 20px;
+}
+    p.tel{
+        margin-bottom: 0px;
+    }
+    .grid.grid2 {
+    margin-bottom: 30px;
 }
 }
 #blog{

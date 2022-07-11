@@ -91,28 +91,64 @@
    <b>zoom.</b>
    </li><li>Atención de un asesor en
    vivo y resolución de dudas
-   de matemáticas.</li></ul><p>Sólo son 2 horas de clases personalizadas.</p></div><div class="ban3"><p><b>Ideal si tienes una evaluación de matemáticas y quieres prepararte mejor.</b></p></div><div class="ban2"><div class="precio precio1"><p><b>Por tan solo <br><span>$469</span> MXN</b></p></div></div><a href="https://matetres14.com/reservar/" class="comprar"><div class="ban4"><h3 class="amarillo">¡Comprar!</h3></div></a></div>
+   de matemáticas.</li></ul><p>Sólo son 2 horas de clases personalizadas.</p></div><div class="ban3"><p><b>Ideal si tienes una evaluación de matemáticas y quieres prepararte mejor.</b></p></div><div class="ban2"><div class="precio precio1"><p><b>Por tan solo <br><span><?php echo get_custom('basico_precio'); ?></span> MXN</b></p></div></div><a href="https://matetres14.com/reservar/" class="comprar"><div class="ban4"><h3 class="amarillo">¡Comprar!</h3></div></a></div>
    <div class="col2"><div class="ban"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="Logo"><h3 class="amarillo">Básicox3</h3></div><div class="ban2"><p><b>¿Qué incluye?</b></p><ul><li>Evaluación diagnóstica y
    seguimiento del 
    estudiante.</li><li>3 sesiones de 2 horas, vía 
    <b>zoom.</b></li><li>Atención de un asesor en
    vivo y resolución de dudas
-   de matemáticas.</li></ul><p>¡Son 6 horas de clases personalizadas!</p></div><div class="ban3"><p><b>Perfecto si tienes varias dudas acerca de un tema de matemáticas.</b></p></div><div class="ban2"><div class="precio precio2"><p><b>Por tan solo <br><span>$1,349</span> MXN</b></p></div></div><a href="https://matetres14.com/reservar/"><div class="ban4"><h3 class="amarillo">¡Comprar!</h3></div></a></div>
+   de matemáticas.</li></ul><p>¡Son 6 horas de clases personalizadas!</p></div><div class="ban3"><p><b>Perfecto si tienes varias dudas acerca de un tema de matemáticas.</b></p></div><div class="ban2"><div class="precio precio2"><p><b>Por tan solo <br><span><?php echo get_custom('basicox3_precio'); ?></span> MXN</b></p></div></div><a href="https://matetres14.com/reservar/"><div class="ban4"><h3 class="amarillo">¡Comprar!</h3></div></a></div>
    <div class="col2"><div class="ban"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="Logo"><h3 class="amarillo">Membresía</h3></div><div class="ban2"><p><b>¿Qué incluye?</b></p><ul><li>Evaluación diagnóstica y
    seguimiento del 
    estudiante.</li><li>2 sesiones semanales de
    2 horas, vía <b>zoom.</b>
    </li><li>Atención de un asesor en
    vivo y resolución de dudas
-   de matemáticas.</li></ul><p>¡Son 16 horas de clases personalizadas al mes!</p></div><div class="ban3"><p><b>Pensados para estudiantes que quieren aprender mucho más o realmente están rezagados en la materia.</b></p></div><div class="ban2"><div class="precio"><p><b>Por tan solo <br><span>$3,449</span> MXN</b></p></div></div><a href="https://matetres14.com/reservar/"><div class="ban4"><h3 class="amarillo">¡Comprar!</h3></div></a></div>
+   de matemáticas.</li></ul><p>¡Son 16 horas de clases personalizadas al mes!</p></div><div class="ban3"><p><b>Pensados para estudiantes que quieren aprender mucho más o realmente están rezagados en la materia.</b></p></div><div class="ban2"><div class="precio"><p><b>Por tan solo <br><span><?php echo get_custom('membresia_precio'); ?></span> MXN</b></p></div></div><a href="https://matetres14.com/reservar/"><div class="ban4"><h3 class="amarillo">¡Comprar!</h3></div></a></div>
 </div>
 
 
 </div>
-
 
 </section>
+ 
+
+ 
+    <section id="curso" class="template-section">
+<div class="contenedor">
+
+<h2>Cursos
+<span>grupales</span></h2>
+    <p class="espe">¡Aprende o regularízate en 3 meses!</p>
+<div class="grid">
+ <!--
+  <div class="col2"><div class="ban"><h3 class="amarillo alge">Curso COMIPEMS<br>&nbsp;</h3></div><div class="ban2"><p><b>Duración</b><br><span><?php //echo get_custom('curso_comipems_1_duracion'); ?></span></p><p><b>Inicio del curso</b><br><span><?php //echo get_custom('curso_comipems_1_inicio_de_cursos'); ?></span></p><p><b>Fin del curso</b><br><span><?php //echo get_custom('algebra_fin'); ?></span></p><p><b>Horarios</b><br><?php //echo get_custom('algebra_horario'); ?></p>
+   </div><div class="ban3"><p><b>Aprende y domina los fundamentos del álgebra<br>&nbsp;
+</b></p></div><div class="ban2"><div class="precio "><p><b>Por tan solo <br><span><?php// echo get_custom('algebra_precio'); ?></span> MXN</b></p></div></div><a href="https://matetres14.com/reservar/" class="comprar"><div class="ban4"><h3 class="amarillo">¡Inscríbete!</h3></div></a></div>
   
+  -->
+   <div class="col2"><div class="ban"><h3 class="amarillo alge">Curso COMIPEMS<br>&nbsp;</h3></div><div class="ban2"><p><b>Inicio del curso</b><br><span><?php echo get_custom('curso_comipems_1_inicio_de_cursos'); ?></span></p><p><b>Horarios</b><br><?php echo get_custom('curso_comipems_1_horario'); ?></p>
+   </div><div class="ban3"><p> <b>Incluye: <br><br> Examen de diagnóstico.<br> 140 horas de preparación con profesores especializados.<br> Material de estudio.<br> Examen de salida. <br>&nbsp;
+</b></p></div><div class="ban2"><div class="precio "><p><b>Por tan solo <br><span><?php echo get_custom('curso_comipems_1_precio'); ?></span> MXN</b></p></div></div><a href="https://matetres14.com/reservar/" class="comprar"><div class="ban4"><h3 class="amarillo">¡Inscríbete!</h3></div></a></div>
+  
+  
+ 
+  
+  <div class="col2"><div class="ban"><h3 class="amarillo alge">Curso COMIPEMS<br>&nbsp;</h3></div><div class="ban2"><p><b>Inicio del curso</b><br><span><?php echo get_custom('curso_comipems_2_inicio_de_cursos'); ?></span></p><p><b>Horarios</b><br><?php echo get_custom('curso_comipems_2_horario'); ?></p>
+   </div><div class="ban3"><p> <b>Incluye: <br><br> Examen de diagnóstico.<br> 140 horas de preparación con profesores especializados.<br> Material de estudio.<br> Examen de salida. <br>&nbsp;
+</b></p></div><div class="ban2"><div class="precio "><p><b>Por tan solo <br><span><?php echo get_custom('curso_comipems_1_precio'); ?></span> MXN</b></p></div></div><a href="https://matetres14.com/reservar/" class="comprar"><div class="ban4"><h3 class="amarillo">¡Inscríbete!</h3></div></a></div>
+<div class="col2"><div class="ban"><h3 class="amarillo alge">Curso COMIPEMS<br>&nbsp;</h3></div><div class="ban2"><p><b>Inicio del curso</b><br><span><?php echo get_custom('curso_comipems_3_inicio_de_cursos'); ?></span></p><p><b>Horarios</b><br><?php echo get_custom('curso_comipems_3_horario'); ?></p>
+   </div><div class="ban3"><p> <b>Incluye: <br><br> Examen de diagnóstico.<br> 140 horas de preparación con profesores especializados.<br> Material de estudio.<br> Examen de salida. <br>&nbsp;
+</b></p></div><div class="ban2"><div class="precio "><p><b>Por tan solo <br><span><?php echo get_custom('curso_comipems_1_precio'); ?></span> MXN</b></p></div></div><a href="https://matetres14.com/reservar/" class="comprar"><div class="ban4"><h3 class="amarillo">¡Inscríbete!</h3></div></a></div>
+
+
+</div>
+
+
+</div>
+
+</section>
+
   <section id="pagos" class="template-section">
 <div class="contenedor">
 
@@ -227,16 +263,16 @@
                
 <div class="col datos">
        
-     
+      <!--
        <div class="datos">
        <div class="grid grid2">
            <div class="col1"><img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/tel.png" alt="Logo"> </div>
-            <div class="col2"><p class="blanco">55 65 57 90 32
-<span>55 28 55 42 62</span></p></div>
+            <div class="col2"><p class="blanco tel">55 1091 7050</p></div>
        </div>
-      
+        
         
         </div>
+        -->
         <div class="datos">
        <div class="grid grid2">
            <div class="col1"><img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/reloj.png" alt="Logo"> </div>
@@ -246,15 +282,16 @@
       
         
         </div>
+       
         <div class="datos">
        <div class="grid grid2">
            <div class="col1"><img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/wa.png" alt="Logo"> </div>
-            <div class="col2"><a href="https://wa.link/c5ya5b"><p class="blanco wa">55 65 57 90 32</p></a></div>
+            <div class="col2"><a href="https://wa.link/lzf34w"><p class="blanco wa">55 6557 9032</p></a></div>
        </div>
       
-        
+       
         </div>
-        
+       
         
         
            
