@@ -586,7 +586,17 @@ body.page-template-acerca .row {
   position: relative;
   top: 9px;
 }
-#contacto .caldera-grid .form-control {
+#contacto div.wpforms-container-full .wpforms-form input.wpforms-field-medium,
+#contacto div.wpforms-container-full .wpforms-form select.wpforms-field-medium,
+#contacto div.wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium {
+  max-width: 100%!important;
+}
+#contacto label.wpforms-field-label,
+#contacto input.wpforms-field-medium,
+#contacto textarea.wpforms-field-medium,
+#contacto .wpforms-field-name-first,
+#contacto input.wpforms-field-name-last,
+#contacto input.wpforms-field-large {
   border-radius: 10px;
   background-color: #446c9e;
   border: px solid #b8d2f1;
@@ -595,17 +605,18 @@ body.page-template-acerca .row {
   font-family: 'Raleway';
   font-weight: bold;
 }
-#contacto .caldera-grid .form-control::placeholder,
-#contacto .caldera-grid .form-control,
-#contacto label {
+#contacto input.wpforms-field-medium::placeholder,
+#contacto textarea.wpforms-field-medium::placeholder,
+#contacto input.wpforms-field-name-last::place,
+#contacto input.wpforms-field-large::place {
   color: white;
   font-size: 20px;
   font-family: 'Raleway';
   font-weight: bold;
   resize: none;
 }
-#contacto #fld_5902921_1-wrap {
-  position: relative;
+#contacto #wpforms-550-field_5-container {
+  text-align: right;
   float: right;
 }
 #contacto .btn {

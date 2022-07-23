@@ -259,7 +259,7 @@
     
      
            <div class="grid">
-               <div class="col"><img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo2.png" alt="Logo"><?php echo do_shortcode('[caldera_form id="CF5f4404c32b8f7"]'); ?></div>
+               <div class="col"><img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo2.png" alt="Logo"><?php echo do_shortcode('[wpforms id="550"]'); ?></div>
                
 <div class="col datos">
        

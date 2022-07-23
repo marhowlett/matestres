@@ -698,8 +698,11 @@ input:checked {
     top: 9px;
         }
     }
-
-      .caldera-grid .form-control {
+   
+    div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms-container-full .wpforms-form select.wpforms-field-medium, div.wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium {
+    max-width: 100%!important;
+}
+       label.wpforms-field-label, input.wpforms-field-medium, textarea.wpforms-field-medium, .wpforms-field-name-first, input.wpforms-field-name-last, input.wpforms-field-large{
      border-radius: 10px;
     background-color: #446c9e;
     border: px solid #b8d2f1;
@@ -709,7 +712,7 @@ input:checked {
         font-weight: bold;
     }
     
-     .caldera-grid .form-control::placeholder, .caldera-grid .form-control, label  { 
+    input.wpforms-field-medium::placeholder, textarea.wpforms-field-medium::placeholder, input.wpforms-field-name-last::place, input.wpforms-field-large::place{  
              color: white;
       font-size: 20px;
       font-family: 'Raleway';
@@ -717,10 +720,10 @@ input:checked {
        resize: none;
     }
     
-   #fld_5902921_1-wrap {
-    position: relative;
+  #wpforms-550-field_5-container {
+    text-align: right;
     float: right;
-}
+      }
       .btn {
         
          //   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
